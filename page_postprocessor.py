@@ -6,8 +6,9 @@ import glob
 import shutil
 
 '''
-  Takes scraped files of the NYJM collection, extracts from the meta og tags the work title
-  and image url, then finds the description text and artist name.
+  Takes scraped files of the NYJM collection, extracts from the meta og tags the work title and image url, then finds the description text and artist name.
+
+  Note: unzip the raw/thejewishmuseum.zip files to some folder and pass this folder as the argument
 
   The result is json file of content
 
